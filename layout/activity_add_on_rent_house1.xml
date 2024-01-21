@@ -1,0 +1,101 @@
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="685dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp"
+    android:layout_margin="25dp"
+    android:backgroundTint="@color/white">
+
+    <ImageView
+        android:id="@+id/viewimage"
+        android:layout_width="178dp"
+        android:layout_height="207dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="95dp" />
+
+    <EditText
+        android:id="@+id/Pricetext"
+        android:layout_width="280dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="left|center"
+        android:text="abcd"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/iconView1"
+        android:layout_width="31dp"
+        android:layout_height="33dp"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/price"
+        android:layout_marginBottom="15dp" />
+
+    <EditText
+        android:id="@+id/Locationtext"
+        android:layout_width="287dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="85dp"
+        android:gravity="left|center"
+        android:text="abcd"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/iconView2"
+        android:layout_width="31dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="82dp"
+        android:src="@drawable/location" />
+
+    <EditText
+        android:id="@+id/Desctext"
+        android:layout_width="287dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="205dp"
+        android:gravity="left|center"
+        android:text="abcd"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/iconView3"
+        android:layout_width="31dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="198dp"
+        android:src="@drawable/desc" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Registerid"
+            android:layout_width="39dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="9dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg2"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="Register Details"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
